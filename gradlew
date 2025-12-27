@@ -1,2 +1,3 @@
 #!/bin/sh
-./gradle/wrapper/gradle-wrapper.jar "$@"
+# Gradle Wrapper launcher (Java)
+java -jar ./gradle/wrapper/gradle-wrapper.jar "$@"
